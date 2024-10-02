@@ -66,6 +66,62 @@
       }
     }
   }
+
+  /* Mobile Styles */
+  @media (max-width: 768px) {
+    padding: 1.5rem;
+    h2 {
+      font-size: 2rem;
+      margin-bottom: 2.5rem;
+    }
+
+    .stack-list {
+      gap: 1.5rem;
+
+      .tech {
+        width: 120px;
+        height: 120px;
+        padding: 1rem;
+
+        .tech-icon {
+          width: 40px;
+          height: 40px;
+        }
+
+        .tech-name {
+          font-size: 1rem;
+        }
+      }
+    }
+  }
+
+  /* Small Mobile Devices */
+  @media (max-width: 480px) {
+    padding: 1rem;
+    h2 {
+      font-size: 1.8rem;
+      margin-bottom: 2rem;
+    }
+
+    .stack-list {
+      gap: 1rem;
+
+      .tech {
+        width: 100px;
+        height: 100px;
+        padding: 0.8rem;
+
+        .tech-icon {
+          width: 35px;
+          height: 35px;
+        }
+
+        .tech-name {
+          font-size: 0.9rem;
+        }
+      }
+    }
+  }
 }
 
 /* Keyframe Animations */

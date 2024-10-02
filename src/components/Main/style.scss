@@ -17,6 +17,12 @@
     opacity: 1;
     transform: translateY(0); /* Slide in */
   }
+
+  @media (max-width: 768px) {
+    padding: 1rem;
+    height: auto;
+    justify-content: center;
+  }
 }
 
 .hero {
@@ -61,6 +67,21 @@
       color: $color-pink;
       margin: 0 20px;
     }
+
+    @media (max-width: 768px) {
+      h1,
+      h2 {
+        font-size: 2.5em;
+      }
+    }
+
+    @media (max-width: 480px) {
+      h1,
+      h2 {
+        font-size: 2em;
+        margin: 10px 0;
+      }
+    }
   }
 
   .aboutme {
@@ -78,6 +99,14 @@
     &.animate p {
       opacity: 1;
       transform: translateY(0); /* Reset transform on animation */
+    }
+
+    @media (max-width: 768px) {
+      flex-direction: column;
+      p {
+        text-align: center;
+        font-size: 1em;
+      }
     }
   }
 }
@@ -119,6 +148,16 @@
     p {
       padding: 0;
       margin: 0;
+    }
+
+    @media (max-width: 768px) {
+      flex-direction: column;
+      gap: 0.4rem;
+      padding: 10px;
+    }
+
+    @media (max-width: 480px) {
+      font-size: 0.9rem;
     }
   }
 }
