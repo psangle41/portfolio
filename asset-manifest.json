@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/psangle41/portfolio.git/static/css/main.a382294a.css",
+    "main.js": "/psangle41/portfolio.git/static/js/main.b3747edd.js",
+    "static/js/453.acca0757.chunk.js": "/psangle41/portfolio.git/static/js/453.acca0757.chunk.js",
+    "static/media/profile.png": "/psangle41/portfolio.git/static/media/profile.49fe33aa53a465aedcdd.png",
+    "static/media/sass-icon.svg": "/psangle41/portfolio.git/static/media/sass-icon.903cef0c9879296f452e2bd0364f58e9.svg",
+    "static/media/react-native-icon.svg": "/psangle41/portfolio.git/static/media/react-native-icon.867e22e5a0394f9e99bb018feec45d06.svg",
+    "static/media/typescript-icon.svg": "/psangle41/portfolio.git/static/media/typescript-icon.1bd166c69617209ba0e2764474b58b1c.svg",
+    "static/media/nextjs-icon.svg": "/psangle41/portfolio.git/static/media/nextjs-icon.e3c042b9d9d809ebb67e9bc6e1e5f70d.svg",
+    "static/media/node-icon.svg": "/psangle41/portfolio.git/static/media/node-icon.cccdafa931eebdaea49f5c5ac3ba232f.svg",
+    "static/media/redux-icon.svg": "/psangle41/portfolio.git/static/media/redux-icon.0a4a6ca2be44339bedb69de15f66d243.svg",
+    "static/media/linkedin-icon.svg": "/psangle41/portfolio.git/static/media/linkedin-icon.c825112c697d4a72d31e0ff78b0f06a3.svg",
+    "static/media/github-button-icon.svg": "/psangle41/portfolio.git/static/media/github-button-icon.52dcef26c45d729d337a7f73e2fe16d8.svg",
+    "static/media/react-icon.svg": "/psangle41/portfolio.git/static/media/react-icon.a060cbe85e50deda1d61452cee9de5b2.svg",
+    "static/media/html-icon.svg": "/psangle41/portfolio.git/static/media/html-icon.36e11ffc7ecde81575ef7b79966b5bb6.svg",
+    "index.html": "/psangle41/portfolio.git/index.html",
+    "static/media/github-icon.svg": "/psangle41/portfolio.git/static/media/github-icon.5e3f9d05c24a2b3cf18ca556bc5a95c4.svg",
+    "static/media/javascript-icon.svg": "/psangle41/portfolio.git/static/media/javascript-icon.081325c6f229605dce15142ddd948d6d.svg",
+    "static/media/git-icon.svg": "/psangle41/portfolio.git/static/media/git-icon.43d387b77657117c0e407816cbf72476.svg",
+    "static/media/redirect-icon.svg": "/psangle41/portfolio.git/static/media/redirect-icon.59879e2f93a4cc47c8a3b87b4817778e.svg",
+    "static/media/download-icon.svg": "/psangle41/portfolio.git/static/media/download-icon.c9e59b68766bd07e4f49c3c5b448dd81.svg",
+    "main.a382294a.css.map": "/psangle41/portfolio.git/static/css/main.a382294a.css.map",
+    "main.b3747edd.js.map": "/psangle41/portfolio.git/static/js/main.b3747edd.js.map",
+    "453.acca0757.chunk.js.map": "/psangle41/portfolio.git/static/js/453.acca0757.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a382294a.css",
+    "static/js/main.b3747edd.js"
+  ]
+}
