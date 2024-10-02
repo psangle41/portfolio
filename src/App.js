@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import Navbar from './components/Navbar';
 import Main from './components/Main';
 import About from './components/About';
@@ -13,30 +13,30 @@ import Journey from './components/Journey';
 import './app.scss';
 import Contact from './components/Contact';
 
-const projectsData = [
-  {
-    title: 'Project 1',
-    description: 'Description for project 1',
-    link: 'https://example.com',
-  },
-  {
-    title: 'Project 2',
-    description: 'Description for project 2',
-    link: 'https://example.com',
-  },
-  // Add more projects as needed
-];
+// const projectsData = [
+//   {
+//     title: 'Project 1',
+//     description: 'Description for project 1',
+//     link: 'https://example.com',
+//   },
+//   {
+//     title: 'Project 2',
+//     description: 'Description for project 2',
+//     link: 'https://example.com',
+//   },
+//   // Add more projects as needed
+// ];
 
 const App = () => {
-  const [showPopup, setShowPopup] = useState(false);
+  //const [showPopup, setShowPopup] = useState(false);
 
   const handleProjectClick = () => {
-    setShowPopup(true);
+    //setShowPopup(true);
   };
 
-  const closePopup = () => {
-    setShowPopup(false);
-  };
+  // const closePopup = () => {
+  //   //setShowPopup(false);
+  // };
 
   return (
     <div className='app'>

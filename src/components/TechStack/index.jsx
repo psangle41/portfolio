@@ -54,11 +54,6 @@ const TechStack = () => {
     if (techStackRef.current) {
       observer.observe(techStackRef.current);
     }
-    return () => {
-      if (techStackRef.current) {
-        observer.unobserve(techStackRef.current);
-      }
-    };
   }, []);
 
   return (
