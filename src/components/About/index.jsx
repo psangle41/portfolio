@@ -1,6 +1,6 @@
 import React, { useEffect, useRef, useState } from 'react';
 import './style.scss';
-import { Profile } from '../../assets/images'; // Ensure you have the correct path for your profile image
+import { Profile } from '../../assets/images';
 
 const About = () => {
   const [isVisible, setIsVisible] = useState(false);
@@ -27,6 +27,7 @@ const About = () => {
 
   return (
     <section
+      id='about'
       className={`about-section ${isVisible ? 'animate' : ''}`}
       ref={sectionRef}
     >

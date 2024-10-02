@@ -1,35 +1,6 @@
 import React, { useEffect, useRef, useState } from 'react';
 import './style.scss';
-import { Download, Redirect } from '../../assets/images';
-
-const socialSites = [
-  {
-    name: 'Resume',
-    image: Download,
-    action: () => {
-      const link = document.createElement('a');
-      link.href = '';
-      link.download = 'Priyanka_Resume.pdf'; // File name for the downloaded resume
-      document.body.appendChild(link);
-      link.click();
-      document.body.removeChild(link);
-    },
-  },
-  {
-    name: 'LinkedIn',
-    image: Redirect,
-    action: () =>
-      window.open(
-        'https://www.linkedin.com/in/priyanka-sangle-767851107',
-        '_blank'
-      ),
-  },
-  {
-    name: 'GitHub',
-    image: Redirect,
-    action: () => window.open('https://github.com/psangle41', '_blank'),
-  },
-];
+import { Download, LinkedInIcon, GithubButtonIcon } from '../../assets/images';
 
 const Main = () => {
   const [isVisible, setIsVisible] = useState(false);
@@ -54,6 +25,35 @@ const Main = () => {
     };
   }, []);
 
+  const socialSites = [
+    {
+      name: 'Resume',
+      image: Download,
+      action: () => {
+        const link = document.createElement('a');
+        link.href = 'Priyanka_Resume.pdf';
+        link.download = 'Priyanka_Resume.pdf';
+        document.body.appendChild(link);
+        link.click();
+        document.body.removeChild(link);
+      },
+    },
+    {
+      name: 'LinkedIn',
+      image: LinkedInIcon,
+      action: () =>
+        window.open(
+          'https://www.linkedin.com/in/priyanka-sangle-767851107',
+          '_blank'
+        ),
+    },
+    {
+      name: 'GitHub',
+      image: GithubButtonIcon,
+      action: () => window.open('https://github.com/psangle41', '_blank'),
+    },
+  ];
+
   return (
     <section
       className={`container ${isVisible ? 'animate' : ''}`}
@@ -68,9 +68,7 @@ const Main = () => {
           <h1>Professional Frontend Developer</h1>
           <h1>Web & Mobile Platform</h1>
           <div className={`aboutme ${isVisible ? 'animate' : ''}`}>
-            <p> Passionate coder </p>
-            <p> Dependable employee</p>
-            <p>Learner </p>
+            <p> Code Enthusiast, Reliable Team Player & Lifelong Learner... </p>
           </div>
           <div className={`links ${isVisible ? 'animate' : ''}`}>
             {socialSites.map((item) => (

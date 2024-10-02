@@ -1,0 +1,28 @@
+@import '../../styles/common';
+
+.contact-container {
+  background-color: $color-black; // Background color matching your theme
+  color: $color-light-grey; // Text color matching your theme
+  padding: 20px;
+  border-radius: 8px;
+  max-width: 700px; // Maximum width for better readability
+  margin: 20px auto; // Center the component
+  text-align: center;
+
+  h2 {
+    color: $color-pink; // Heading color to stand out
+    margin-bottom: 10px;
+  }
+
+  p {
+    margin: 5px 0;
+  }
+
+  a {
+    color: $color-orange; // Link color to match the theme
+    text-decoration: none; // No underline
+    &:hover {
+      text-decoration: underline; // Underline on hover for clarity
+    }
+  }
+}

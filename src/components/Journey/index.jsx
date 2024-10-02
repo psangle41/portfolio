@@ -60,7 +60,7 @@ const experiences = [
 
 const Journey = () => {
   return (
-    <div className='experience-container'>
+    <div id='experience' className='experience-container'>
       <h2 className='experience-title'>Experience</h2>
       <div className='experience-timeline'>
         {experiences.map((item, index) => (

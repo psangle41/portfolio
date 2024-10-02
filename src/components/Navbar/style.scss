@@ -4,13 +4,17 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 5px;
+  padding: 10px 5px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background-color: $color-black;
 
   ul {
     list-style-type: none;
     display: flex;
     gap: 20px;
-    color: $color-light-grey;
+    color: $color-orange;
     font-weight: 600;
 
     li {

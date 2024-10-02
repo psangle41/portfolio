@@ -69,8 +69,7 @@
     gap: 20px;
 
     p {
-      font-size: 1.2em;
-      margin: 10px 0;
+      font-size: 1.1em;
       opacity: 0;
       transform: translateY(50px); /* Slide up animation */
       transition: all 1s ease-in-out;
@@ -79,17 +78,6 @@
     &.animate p {
       opacity: 1;
       transform: translateY(0); /* Reset transform on animation */
-    }
-
-    p::before {
-      content: '';
-      width: 5px;
-      height: 5px;
-      color: white;
-      background: $color-white;
-      display: inline-block;
-      margin-right: 8px; /* Adds space between square and text */
-      vertical-align: middle;
     }
   }
 }
@@ -122,6 +110,7 @@
     color: white;
     transition: background-color 0.4s ease, transform 0.4s ease;
     cursor: pointer;
+    font-weight: 500;
 
     &:hover {
       transform: translateY(-5px); /* Lift on hover */

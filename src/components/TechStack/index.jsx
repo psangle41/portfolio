@@ -63,6 +63,7 @@ const TechStack = () => {
 
   return (
     <section
+      id='tech-stack'
       className={`tech-stack ${isVisible ? 'animate' : ''}`}
       ref={techStackRef}
     >

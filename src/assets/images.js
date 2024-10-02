@@ -12,6 +12,8 @@ import ReduxIcon from './images/redux-icon.svg';
 import Profile from './images/profile.png';
 import Download from './images/download-icon.svg';
 import Redirect from './images/redirect-icon.svg';
+import LinkedInIcon from './images/linkedin-icon.svg';
+import GithubButtonIcon from './images/github-button-icon.svg';
 
 export {
   HtmlIcon,
@@ -28,4 +30,6 @@ export {
   Download,
   Redirect,
   ReactIcon,
+  LinkedInIcon,
+  GithubButtonIcon,
 };

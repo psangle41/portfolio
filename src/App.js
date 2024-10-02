@@ -11,6 +11,7 @@ import Journey from './components/Journey';
 // import Contact from './components/Contact';
 // import ProjectPopup from './components/ProjectPopup';
 import './app.scss';
+import Contact from './components/Contact';
 
 const projectsData = [
   {
@@ -44,6 +45,7 @@ const App = () => {
       <About />
       <TechStack />
       <Journey />
+      <Contact />
       {/* <Projects />
       <Skills />
       <FunFacts />
