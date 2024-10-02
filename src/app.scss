@@ -1,0 +1,17 @@
+@import './styles/common.scss'; // Importing the variables
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+  padding: 0;
+  color: $color-black;
+  background-color: $color-black;
+}
+
+.app {
+  margin: 0 auto;
+}

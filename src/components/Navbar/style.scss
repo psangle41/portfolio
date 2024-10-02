@@ -1,0 +1,24 @@
+@import '../../styles/common';
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+
+  ul {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+    color: $color-light-grey;
+    font-weight: 600;
+
+    li {
+      cursor: pointer;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}
